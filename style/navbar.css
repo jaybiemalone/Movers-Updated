@@ -1,0 +1,154 @@
+/*Left Sidebar*/
+
+.main-content nav{
+    background-color: white;
+    border-bottom: 1px solid rgba(73, 72, 72, 0.26);
+    display: flex;
+    position: relative;
+}
+
+.main-content nav .log-out{
+    box-sizing: border-box;
+    width: 100px;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    color: black;
+    font-weight: bold;
+}
+
+.main-content nav .log-out i{
+    flex-shrink: 0;
+    font-size: 40px;
+    background: white;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.main-content nav .log-out #toggleBtn{
+    border: none;
+}
+
+.main-content nav .log-out #logout{
+    background: white;
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.main-content nav .log-out #logout p:hover{
+    opacity: 70%;
+}
+
+.main-content nav .log-out #logout a{
+    color: black;
+}
+
+.hidden{
+    display: none;
+    padding-left: 15px;
+}
+
+.main-content nav .logo-nav-container{
+    display: none;
+}
+
+.main-content nav .leftbar{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.main-content nav .leftbar i{
+    color: black;
+    flex-shrink: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-content nav .leftbar a,
+.main-content nav .leftbar i,
+.main-content nav .leftbar span{
+    padding-left: 10px;
+}
+
+.main-content nav .rightbar{
+    width: 50%;
+}
+
+.main-content nav .leftbar span{
+    color: black;
+}
+
+.main-content nav .leftbar button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.main-content nav .leftbar button:hover{
+    background-color: rgb(170, 173, 175);
+}
+
+.main-content nav .leftbar button i{
+    padding-right: 10px;
+}
+
+@media  only screen and (max-width: 942px){
+    .main-content nav .leftbar,
+    .main-content nav .rightbar{
+        display: none;
+    }
+}
+
+@media  only screen and (max-width: 660px){
+    .sidebar{
+        display: none;
+    }
+    .main-content{
+        width: 100vw;
+    }
+}
+
+@media  only screen and (max-width: 568px){
+
+    .main-content nav .logo-nav-container{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+
+    .main-content nav .leftbar{
+        display: none;
+    }
+
+    .main-content nav .log-out .display-menu{
+        position: absolute;
+        z-index: 5!important;
+        display: block;
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+}
+
+@media  only screen and (max-width: 375px){
+    .sidebar ul li .Logo{
+        display: none;
+    }
+
+    .sidebar{
+        padding-top: 80px;
+    }
+}
