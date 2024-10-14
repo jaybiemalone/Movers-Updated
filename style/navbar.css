@@ -114,6 +114,12 @@ a{
 }
 
 @media  only screen and (max-width: 660px){
+
+    .main-content nav .logo-nav-container{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
     .sidebar{
         display: none;
     }
@@ -123,14 +129,7 @@ a{
 }
 
 @media  only screen and (max-width: 568px){
-
-    .main-content nav .logo-nav-container{
-        display: flex;
-        margin-left: 30px;
-        margin-top: 5px;
-    }
-
-    .main-content nav .leftbar{
+    .main-content nav .log-out #toggleBtn button{
         display: none;
     }
 
@@ -139,7 +138,7 @@ a{
         z-index: 5!important;
         display: block;
         padding-top: 15px;
-        padding-right: 10px;
+        left: -7px;
     }
 }
 

@@ -133,16 +133,6 @@
     .sidebar .Logo img{
         display: none;
     }
-    .display-menu button{
-        display: block !important;
-        background: none;
-        border: none;
-        font-size: 28px;
-        cursor: pointer;
-        position: absolute;
-        bottom: 10px;
-        padding-left: 50px;
-    }
     .sidebar li:nth-child(1){
         background: none;
     }
