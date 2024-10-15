@@ -114,6 +114,25 @@ a{
 }
 
 @media  only screen and (max-width: 660px){
+    .main-content nav{
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+        border: none;
+    }
+    .display-menu button{
+        z-index: 1;
+        display: block !important;
+        background: none;
+        border: none;
+        font-size: 28px;
+        cursor: pointer;
+        position: absolute;
+        bottom: 5px;
+        width: 50px;
+        float: right;
+        left: 20px;
+    }
 
     .main-content nav .logo-nav-container{
         display: flex;
@@ -129,16 +148,8 @@ a{
 }
 
 @media  only screen and (max-width: 568px){
-    .main-content nav .log-out #toggleBtn button{
-        display: none;
-    }
-
-    .main-content nav .log-out .display-menu{
-        position: absolute;
-        z-index: 5!important;
-        display: block;
-        padding-top: 15px;
-        left: -7px;
+    .main-content nav{
+        width: 100vw;
     }
 }
 

@@ -103,7 +103,7 @@
     font-size: 20px;
 }
 
-@media  only screen and (max-width: 568px){
+@media  only screen and (max-width: 660px){
     .main-content{
         width: 100vw;
     }
@@ -118,16 +118,6 @@
         width: 80%;
         background-color: #f3f3f3;
         margin-bottom: 10px;
-    }
-
-    .sidebar2{
-        z-index: 1;
-        background-color: white;
-        position: absolute;
-        display: block !important;
-        width: 100%;
-        padding-top: 50px;
-        padding-left: 130px;
     }
 
     .sidebar .Logo img{
