@@ -120,18 +120,22 @@ a{
         width: 100%;
         border: none;
     }
-    .display-menu button{
-        z-index: 1;
+    .main-content nav .log-out{
+        display: none;
+    }
+    .main-content nav .display-menu button{
         display: block !important;
-        background: none;
+        z-index: 1;
+        position: absolute;
+        right: 0;
+        margin-right: 20px;
         border: none;
+        background: none;
         font-size: 28px;
         cursor: pointer;
-        position: absolute;
-        bottom: 5px;
-        width: 50px;
-        float: right;
-        left: 20px;
+    }
+    .main-content nav .display-menu button:hover{
+        opacity: 60%;
     }
 
     .main-content nav .logo-nav-container{

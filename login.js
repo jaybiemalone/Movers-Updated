@@ -33,7 +33,7 @@ submit.addEventListener("click", function (event) {
       .then((userCredential) => {
         // Signed up 
         const user = userCredential.user;
-        window.location.href ="dashbord.html";
+        window.location.href ="dashbord.php";
       })
       .catch((error) => {
         // Handle errors here
