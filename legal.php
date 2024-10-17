@@ -230,12 +230,26 @@
                         </ul>
                     </div>
                 </div>
-                <div class="legal-box"></div>
+                <div class="legal-box">
+                    <div class="top">
+                        <p>Compliance  by Regulation</p>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li>
+                                <div class="chart">
+                                    <canvas id="legalchart2" width="600" height="300"></canvas>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
     <script src="legal-chart.js"></script>
+    <script src="legal-chart2.js"></script>
 </body>
 
 </html>

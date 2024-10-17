@@ -139,6 +139,23 @@
 .legal-main-content .legal-container .legal-box:nth-child(3){
     width: 640px;
     height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.legal-main-content .legal-container .legal-box:nth-child(3) .top{
+    width: 250px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.legal-main-content .legal-container .legal-box:nth-child(3) .bottom{
+    width: auto;
+    height: auto;
 }
 
 /*Legal box 3 end*/
