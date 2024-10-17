@@ -247,7 +247,7 @@
                     </div>
                     <div class="right-box">
                         <div class="chart">
-                            <canvas id="barchart" width="300" height="200"></canvas>
+                            <canvas id="barchart" width="330" height="220"></canvas>
                         </div>
                     </div>
                 </div>
@@ -294,6 +294,6 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
-    <script src="chart1.js"></script>
+    <script src="./javascript/chart1.js"></script>
 </body>
 </html>

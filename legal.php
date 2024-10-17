@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <!-- <div class="sidebar2" style="display: none;" id="sideshow">
+    <div class="sidebar2" style="display: none;" id="sideshow">
         <ul>
             <li>
                 <div class="Logo">
@@ -86,7 +86,7 @@
                 </a>
             </li>
         </ul>
-    </div> -->
+    </div>
     <div class="sidebar">
         <ul>
             <li>
@@ -248,8 +248,8 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
-    <script src="legal-chart.js"></script>
-    <script src="legal-chart2.js"></script>
+    <script src="./javascript/legal-chart.js"></script>
+    <script src="./javascript/legal-chart2.js"></script>
 </body>
 
 </html>

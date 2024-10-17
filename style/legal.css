@@ -6,6 +6,10 @@
     overflow: auto;
 }
 
+li{
+    list-style: none;
+}
+
 .legal-main-content::-webkit-scrollbar{
     display: none;
 }
